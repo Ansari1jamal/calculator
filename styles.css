@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu TAS Beginner',cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('/photo-1528460033278-a6ba57020470.avif');
+    background-size: cover;
+}
+
+.calculator{
+    border: 1px solid #799bdf;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(16, 92, 242, 0.848);
+
+}
+
+input{
+    width: 340px;
+    border: none;
+    outline: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #0fae04;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: #05fe6d;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: -5px -5px 15px #000;
+    cursor: pointer;
+}
+button:active{
+    background-blend-mode: overlay;
+    background-color: rgba(11, 110, 240, 0.552);
+    transform: translate(2px,2px);
+}
+.opr{
+    color: #660dc5;
+}
+#eqlBtn{
+    font-weight:900;
+    background-color: #f19f12;
+}
+
